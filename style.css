@@ -12,43 +12,6 @@
     font-family: 'Poppins', 'sans-serif';
 }
 
-.home-content h3{
-    font-size: 3.2rem;
-    font-weight: 700;
-}
-
-.home-content h3:nth-of-type(2){
-    margin-bottom: 2rem;
-}
-
-.home-content p{
-    font-size: 1.6rem;
-}
-
-.home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.home-img img{
-    width: 35vw;
-    border-radius: 100%;
-    animation: floatImages 4s ease-in-out infinite;
-}
-
-@keyframes floatImages{
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-2.4rem);
-    }
-    100%{
-        transform: translateY();
-    }
-}
-
 html {
     font-size: 100%;
 }
